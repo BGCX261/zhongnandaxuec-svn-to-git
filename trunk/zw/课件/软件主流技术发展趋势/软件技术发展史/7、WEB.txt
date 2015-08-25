@@ -1,0 +1,36 @@
+Web的历史纷繁复杂，本文主要按年份做大事记汇总。近20年的Web发展历史，也就是人类的历史，这些年，越来越多的人每天都靠电脑和Web生存和生活，或写或读或沟通，简单的信息发布和交流需求导致HTML和浏览器兴起，更多的交互和计算资源共享促成CGI和WebService，当焦点回到人、人的力量、企业的力量，我们就看到了Web2.0、SOA。人类社会的发展就是资源流动最大化的过程，也即更多的开放、共享和协作的过程，基于计算机和网络的Web加速着信息资源、计算资源、人力的流动。
+
+1989年，World Wide Web，简称WWW，由英国人TimBerners-Lee在欧洲共同体的大型科研机构CERN（欧洲粒子物理研究所）任职时发明。同年，能存储、展现二维动画的GIF图像格式也发展成熟。
+
+1991年，CERN正式发布了Web技术标准。目前，与Web相关的各种技术标准都由W3C组织（World Wide Web Consortium）管理和维护。Web架构的精华有三处：用超文本（HTML）实现信息与信息的连接；用统一资源定位（URI）实现全球信息的精确定位；用新的应用层协议（HTTP）实现分布式的信息共享。
+
+1993年，动态生成HTML页面技术CGI 1.0的标准草案由NCSA（National Center for Supercomputing Applications）提出。
+
+1994年，Netscape研发出第一个商用的浏览器；Rasmus Lerdorf发明了专用于Web服务端编程的PHP（Personal Home Page Tools）语言。
+
+1995年，Netscape公司股票上市，当年Netscape几乎拿下了整个浏览器市场。同年，第一个用Perl（Larry Wall于1987年发明）写成的CGI程序问世，很快，Perl在CGI编程领域的风头就盖过了它的前辈C语言，随后，Python等著名的脚本语言也陆续加入了CGI编程语言的行列。
+
+1996年，W3C提出了CSS的建议标准，以及XML（Extensible Markup Language）语言草案；Netscape在其2.0版中增加了对JavaApplets和JavaＳcript的支持，还有QuickTime插件；微软IE 3.0开始支持Java、CSS，还加了后来也声名显赫的VBＳcript脚本语言；借鉴PHP的思想，微软在其Web服务器IIS 3.0中引入了ASP技术。同年，全球权威市场研究机构Gartner首度提出SOA概念。
+
+1997年，Macromedia公司推出Flash 2.0；Netscape 4.0支持CSS、DHTML；微软将其IE4浏览器与Windows 95进行捆绑出售，推出了被我们习惯称之为Windows 97的操作系统升级版本，这样做让IE浏览器在浏览器市场中所占的份额迅速扩大，并逐渐超过Netscape；IE4也支持DHTML。同年，Sun的Servlet技术问世。
+
+1998年，W3C正式发布了XML 1.0标准；Netscape浏览器提供免费下载，并且成为一个开源软件，http://www.mozilla.org 同时成立；微软发布的新一代操作系统Windows 98（也就是我们通常说的Win98第二版）与IE5完全融合。这时IE在市场和技术方面已经取得了绝对的优势。同年，Netscape还拥有32%的市场份额，并被AOL收购。IE5除了实现HTML 4.0和DHTML以外，还加入了许多自己定义的技术（不论这些技术是否与标准兼容，但从实际情况来看却是促进了更多人使用IE）：比NetScape的JavaＳcript(ECMA Ｓcript)功能更加强大的JＳcript引擎；ActiveX、优化CSS、HTC(HTMLComponent)。同年，Sun的JSP技术诞生。
+
+1999年，W3C制定出了XSLT标准；IE5增加了对XML和XSLT的支持；NetScape提出基于XML的RSS（Rich Site Summary）建议标准，这是用元数据技术描述新闻等信息内容的第一次尝试，后来在Blog中被大量应用。
+
+2000年，W3C发布SOAP（Simple Object Access Protocol）协议的1.1版。这个协议早在1998年就在一个小范围的组织中间酝酿，其中包括微软、IBM等，由于一些政治方面的原因，SOAP直到1999年下半年才正式发布1.0。
+
+2001年，W3C发布了WSDL（Web Services DeＳcription Language）协议的1.1版，SOAP协议和WSDL协议共同构成了Web Service的基础。随后，J2EE和.NET这两大企业级开发平台先后实现了Web Service，并将其视为平台的一项核心功能。同年，IE6发布，浏览器大战彻底终结，IE相对于Netscape不管在市场还是在技术方面都取得了绝对的成功。
+
+2002年，Netscape7.0预览版发布，不过此时大势已去，无法改变注定被埋藏的命运；IE6.0 Service Pack1也就是我们通常说的IE6.1发布。同年，Gartner提出SOA是“现代应用开发领域最重要的课题”。
+
+2003年，Sun的J2EE版本升级到了1.4版，其中三个关键组件的版本也演进到了Servlet 2.4、JSP 2.0和EJB 2.1。至此，J2EE体系及相关的软件产品已经成为了Web服务端开发的一个强有力的支撑环境。
+
+2004年，通过集成搜索窗口、单窗口多标签和弹出窗口过滤等功能，Mozilla开发的火狐(Firefox)浏览器推出后迅速站稳脚跟，并抢占了不少的市场份额；SAP正式推出NetWeaver，全面切换到SOA架构；开源MVC Web开发框架Ruby on Rails发布；2005年起，这个框架开始被很多人使用，Ruby这个1993年日本人发明的语言开始流行。
+
+2005年，Adaptive Path公司首先提出AJAX（异步JavaＳcript和XML——Asynchronous JavaＳcript + XML）概念，这是一种对传统Web应用模式加以扩展的技术，它使得“不切换页面向服务器发起请求”成为可能；AJAX应用的代表有Gmail邮箱、Google Maps、163邮箱等。同年，Web2.0概念在美国最早被提出，博客是Web2.0的代表应用。
+
+2006年，微软发布IE7，新增功能主要是跟随Firefox，还有就是加强安全性，比如默认为禁止ActiveX。这时，IE在全球浏览器市场占据86%的份额，火狐占11.5%，苹果Safari和Opera均不足2%。
+
+2007年，微软Vista发布，捆绑IE7和.NET 3.0；Flash player在全世界计算机上的普及率达到98.8%，这是迄今为止市场占有率最高的软件产品（超过了Windows、Office以及任何一种输入法）；中国博客提供商老大新浪博客注册用户数突破1亿。同年，微软发布替代HTML/CSS/Flash并号称可以“点亮Web”的技术“Silverlight”1.0 Beta，并开始在中国做推广。
+

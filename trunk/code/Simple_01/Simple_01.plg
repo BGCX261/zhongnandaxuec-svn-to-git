@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Simple_01 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP293.tmp" with contents
+[
+/nologo /ML /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Simple_01.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\svnroot\zhongnandaxue\code\Simple_01\Simple_01.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP293.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP294.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Simple_01.pdb" /debug /machine:I386 /out:"Release/Simple_01.exe" 
+.\Release\Simple_01.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP294.tmp"
+<h3>Output Window</h3>
+Compiling...
+Simple_01.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP296.bat" with contents
+[
+@echo off
+DIR
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP296.bat"
+
+ 驱动器 E 中的卷没有标签。
+ 卷的序列号是 39E9-CA99
+
+ E:\svnroot\zhongnandaxue\code\Simple_01 的目录
+
+2010-05-29  16:23    <DIR>          .
+2010-05-29  16:23    <DIR>          ..
+2010-05-29  15:36    <DIR>          Debug
+2010-05-29  16:23    <DIR>          Release
+2010-05-29  16:23               451 Simple_01.cpp
+2010-05-29  15:24             4,254 Simple_01.dsp
+2010-05-29  15:24               541 Simple_01.dsw
+2010-05-29  15:24            25,600 Simple_01.ncb
+2010-05-29  16:23                 0 Simple_01.plg
+               5 个文件         30,846 字节
+               4 个目录 99,109,654,528 可用字节
+
+
+
+<h3>Results</h3>
+Simple_01.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

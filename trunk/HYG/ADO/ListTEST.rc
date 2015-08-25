@@ -1,0 +1,487 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ListTEST.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ListTEST.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于学生信息管理系统"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "学生信息管理系统 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2010",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_LISTTEST_DIALOG DIALOGEX 0, 0, 494, 276
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "学生信息管理"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,60,480,209
+    LTEXT           "查询条件：",IDC_STATIC,15,21,41,8
+    EDITTEXT        IDC_EDIT1,177,18,122,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,58,17,98,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "值",IDC_STATIC,163,20,9,8
+    PUSHBUTTON      "查询",IDC_BTSERCH,344,17,37,14
+    CONTROL         "全部",IDC_CHALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    307,19,32,10
+    LTEXT           "",IDC_STATIC_SW,13,39,227,16,SS_CENTERIMAGE | NOT 
+                    WS_VISIBLE,WS_EX_STATICEDGE
+    PUSHBUTTON      "添加",IDC_BUT_ADDDL,390,17,44,14
+    PUSHBUTTON      "清 空",IDC_BT_CLEARALL,255,40,37,14
+END
+
+IDD_DLG_LOGIN DIALOG DISCARDABLE  0, 0, 205, 112
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统登录"
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EUSER,71,31,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EPWD,71,55,86,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "登 录",IDC_BT_LOG,43,78,50,14
+    PUSHBUTTON      "取 消",IDC_BT_CAN,109,78,50,14
+    LTEXT           "用户名",IDC_STATIC,41,34,25,8
+    LTEXT           "用户名",IDC_STATIC,41,58,25,8
+END
+
+IDD_DIA_MAIN DIALOGEX 0, 0, 408, 216
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "学生信息管理系统"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,73,8,256,34
+    PUSHBUTTON      "学生管理",IDC_BTStu,24,52,80,19,BS_FLAT
+    PUSHBUTTON      "专业管理",IDC_BTPro,24,77,80,19,BS_FLAT
+    PUSHBUTTON      "教师管理",IDC_BTTer,24,102,80,19,BS_FLAT
+    PUSHBUTTON      "密码修改",IDC_BTPwd,24,151,80,19,BS_FLAT
+    PUSHBUTTON      "课程管理",IDC_BTCor,24,127,80,19,BS_FLAT
+    LTEXT           "   学生信息的添加，查询，删除！",IDC_STATIC,143,54,182,
+                    19,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "   学校专业的设置和维护！",IDC_STATIC,143,78,182,19,
+                    SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "   教师信息的添加和维护！",IDC_STATIC,143,101,182,19,
+                    SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "   课程信息的添加和维护",IDC_STATIC,143,125,182,19,
+                    SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "   系统密码修改",IDC_STATIC,143,145,182,19,
+                    SS_CENTERIMAGE,WS_EX_STATICEDGE
+    PUSHBUTTON      "退 出",IDC_BT_EXIT,24,177,80,19,BS_FLAT
+    LTEXT           "    退出系统",IDC_STATIC,143,169,182,19,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+END
+
+IDD_MD_PWD DIALOG DISCARDABLE  0, 0, 194, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "宋体"
+BEGIN
+    LTEXT           "新密码：",IDC_STATIC,35,23,31,8
+    EDITTEXT        IDC_EDIT1,74,18,85,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "再次输入：",IDC_STATIC,28,44,38,8
+    EDITTEXT        IDC_EDIT2,74,42,82,15,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTOK,33,68,45,13
+    PUSHBUTTON      "取消",IDC_BUTCAN,95,69,45,13
+END
+
+IDD_DADD_STU DIALOG DISCARDABLE  0, 0, 267, 231
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添加学生信息"
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_SID,71,9,94,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_STNAME,71,26,94,12,ES_AUTOHSCROLL
+    CONTROL         "男",IDC_RADIO_SEX,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,75,44,23,10
+    CONTROL         "女",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,108,44,23,10
+    CONTROL         "DateTimePicker1",IDC_DT_BIRTH,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,71,75,94,12
+    EDITTEXT        IDC_EDIT_ID,71,91,94,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CMB_SPE,71,109,94,72,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COM_COLAGE,71,127,94,72,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_DT_ENTRYTIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,71,147,94,12
+    EDITTEXT        IDC_EDIT_NATIPLACE,71,164,94,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADDR,71,181,94,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "保 存",IDC_BT_ADD,198,15,50,14
+    PUSHBUTTON      "取 消",IDC_BT_ACANCE,198,46,50,14
+    LTEXT           "学  号:",IDC_STATIC,31,12,28,8
+    LTEXT           "专  业:",IDC_STATIC,31,112,28,8
+    LTEXT           "学  院:",IDC_STATIC,31,128,28,8
+    LTEXT           "姓  名:",IDC_STATIC,31,29,28,8
+    LTEXT           "性  别:",IDC_STATIC,31,44,28,8
+    LTEXT           "出生日期:",IDC_STATIC,24,77,35,8
+    LTEXT           "身份证:",IDC_STATIC,32,93,27,8
+    LTEXT           "入学日期:",IDC_STATIC,24,149,35,8
+    LTEXT           "籍  贯:",IDC_STATIC,31,167,28,8
+    LTEXT           "家庭住址:",IDC_STATIC,24,182,35,8
+    COMBOBOX        IDC_CMB_SYMB,71,54,94,72,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "政治面貌:",IDC_STATIC,24,57,35,8
+    EDITTEXT        IDC_EDIT_POSTCD,71,196,94,12,ES_AUTOHSCROLL
+    LTEXT           "邮 编:",IDC_STATIC,35,198,24,8
+END
+
+IDD_DLG_SPECI DIALOGEX 0, 0, 375, 227
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "专业管理"
+FONT 10, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LTSHOW_SPE,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,2,48,370,172
+    LTEXT           "查询条件",IDC_STATIC,10,14,31,8
+    EDITTEXT        IDC_ETSERCH,139,9,94,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMSER_SPE,45,11,77,79,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "值",IDC_STATIC,126,13,8,8
+    PUSHBUTTON      "查询",IDC_BTSPESERCH,253,9,33,14
+    PUSHBUTTON      "添加",IDC_BTSPE_ADD,294,9,37,14
+    LTEXT           "",IDC_STATIC_SWSP,6,28,195,15,SS_CENTERIMAGE | NOT 
+                    WS_VISIBLE,WS_EX_STATICEDGE
+END
+
+IDD_DIA_STDMODIF DIALOG DISCARDABLE  0, 0, 270, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "学生信息修改"
+FONT 10, "宋体"
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,189,105,50,14
+    EDITTEXT        IDC_EDITM_SID,71,9,94,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDITM_STNAME,71,26,94,12,ES_AUTOHSCROLL
+    CONTROL         "男",IDC_RADIOM_SEX,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,75,44,23,10
+    CONTROL         "女",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,108,44,23,10
+    CONTROL         "DateTimePicker1",IDC_DTM_BIRTH,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,71,75,94,12
+    EDITTEXT        IDC_EDITM_ID,71,91,94,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CMBM_SPE,71,109,94,72,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMM_COLAGE,71,127,94,72,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_DTM_ENTRYTIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,71,147,94,12
+    EDITTEXT        IDC_EDITM_NATIPLACE,71,164,94,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITM_ADDR,71,181,94,12,ES_AUTOHSCROLL
+    LTEXT           "学  号:",IDC_STATIC,31,12,28,8
+    LTEXT           "专  业:",IDC_STATIC,31,112,28,8
+    LTEXT           "学  院:",IDC_STATIC,31,128,28,8
+    LTEXT           "姓  名:",IDC_STATIC,31,29,28,8
+    LTEXT           "性  别:",IDC_STATIC,31,44,28,8
+    LTEXT           "出生日期:",IDC_STATIC,24,77,35,8
+    LTEXT           "身份证:",IDC_STATIC,32,93,27,8
+    LTEXT           "入学日期:",IDC_STATIC,24,149,35,8
+    LTEXT           "籍  贯:",IDC_STATIC,31,167,28,8
+    LTEXT           "家庭住址:",IDC_STATIC,24,182,35,8
+    COMBOBOX        IDC_CMBM_SYMB,71,54,94,72,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "政治面貌:",IDC_STATIC,24,57,35,8
+    EDITTEXT        IDC_EDITM_POSTCD,71,196,94,12,ES_AUTOHSCROLL
+    LTEXT           "邮 编:",IDC_STATIC,35,198,24,8
+    DEFPUSHBUTTON   "修  改",IDC_BT_UPDATE,191,44,50,14
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 230, 94
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "宋体"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,47,216,14
+    CONTROL         "",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,7,21,
+                    216,15,WS_EX_STATICEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ListTEST Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ListTEST\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ListTEST.EXE\0"
+            VALUE "ProductName", "ListTEST 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LISTTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 487
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 269
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 202
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_DIA_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 405
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_MD_PWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_DADD_STU, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 260
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DLG_SPECI, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 372
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_DIA_STDMODIF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\Banner.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "CLISTMENU"
+    BEGIN
+        MENUITEM "修  改",                      IDCL_MENU_MODIF
+        MENUITEM "删  除",                      IDCL_MENU_DELET
+        MENUITEM "添  加",                      IDM_ADD_STUIF
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DADD_STU DLGINIT
+BEGIN
+    IDC_CMB_SYMB, 0x403, 9, 0
+0xdece, 0xb3b5, 0xcbc8, 0xbfca, "\000" 
+    IDC_CMB_SYMB, 0x403, 5, 0
+0xc5cd, 0xb1d4, "\000" 
+    IDC_CMB_SYMB, 0x403, 9, 0
+0xb2b9, 0xfab2, 0xb3b5, 0xb1d4, "\000" 
+    0
+END
+
+IDD_DIA_STDMODIF DLGINIT
+BEGIN
+    IDC_CMBM_SYMB, 0x403, 9, 0
+0xdece, 0xb3b5, 0xcbc8, 0xbfca, "\000" 
+    IDC_CMBM_SYMB, 0x403, 5, 0
+0xc5cd, 0xb1d4, "\000" 
+    IDC_CMBM_SYMB, 0x403, 9, 0
+0xb2b9, 0xfab2, 0xb3b5, 0xb1d4, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ListTEST(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ListTEST.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

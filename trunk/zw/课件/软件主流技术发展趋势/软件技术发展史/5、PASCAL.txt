@@ -1,0 +1,26 @@
+Pascal的历史中，最值得一提的人物是Anders Hejlsberg（安德斯·海尔斯伯格），他是所有Pascal版本与Delphi前3个版本的架构师。这个人现在在微软，为微软.NET的首席架构师，他是.NET概念的发起人之一。.NET的事情后面的章节再说，不过他来搞.NET，对要同时搞Delphi和.NET或者Delphi转.NET的程序员都是一个福音，因为.NET语言和框架中很多地方Delphi程序员都会觉得似曾相识。
+
+1971年，PASCAL由瑞士联邦技术学院N.Wirth（尼克劳斯.沃尔斯）教授发明。这个语言以帕斯卡的名字命名，语法严谨，层次分明，简单明晰，可读性强，是第一个结构化的编程语言。Wirth获1984年度“图林奖”。
+
+1983年，Borland公司的创始人Philippe Kahn和Anders Hejlsberg两人合作开发了Turbo Pascal的第一个编译器，并以49.99美元的惊人低价抛售，立刻为Borland带来了大量的财富，Turbo Pascal也立刻成为PC上除了基本的Basic之外最畅销的开发工具，也正式揭开了Borland影响PC开发工具十几年的序幕。Turbo Pascal是Pascal语言的一个扩展，在语法上，Turbo Pascal吸取了其他语言如C等的特性，简化了标准Pascal的语法；在功能上，Turbo Pascal提供了包括屏幕控制、图形处理、系统调用等有用的函数库。
+
+1989年，Borland发布的Turbo Pascal 5.5版是一个重要的版本，从这一版本起，Borland公司把OOP引入Pacal语言，这就是大家所知道的Object Pascal的开端。1990年Turbo Pascal 6.0推出一个用OOP思想封装的Dos下的应用程序框架（Framework），叫做TurboVision，这个版本的IDE据信即是使用该Framework开发的。Turbo Pascal的最后一个版本叫做Borland Pascal 7，1992年发布，它包含一个增强的Dos下的IDE和编译器，可以创建Dos和Windows3.x程序，后来为Delphi1.0代替。  
+
+1995年，内部代码为“VBKiller”的Borland Delphi 1发布，历史见证，这个版本的功用恰如其名。从项目代码可以看出，Borland与微软一直有着深切的纠缠，甚至深仇大恨。微软这样的战略让Borland几乎风雨飘摇：先模仿，打不过就挖人，不行就收购。Borland直到2007年由CodeGear接手Delphi等开发工具后才逐渐回到正途，可以看看李维写的《Borland传奇》。
+
+1996年，Delphi 2：最初被命名为Delphi 32，以强调它是为32位Windows设计的，32位的编译器能生成速度更快的应用程序，对象库得到进一步丰富和扩展，完善了数据库支持，支持OLE和可视化窗体继承。Delphi 2成为衡量其他RAD工具的标准。
+
+1997年，Delphi 3：代码内视(Code Insight)技术简化了代码编写过程；使本来极其复杂的COM、ActiveX、WWW应用程序开发、“瘦”客户应用程序、多层数据库系统体系结构等技术变得非常容易使用。在Delphi 3的开发过程中，Delphi的首席设计师Anders Hejlsberg决定转到微软工作，因此Delphi小组失去了一个重要成员，不过该小组并没有失去任何优势，因为资深设计师Chuck Jazdzewski有能力承担起领导角色，在此前后，公司还失去了首席技术总裁Paul Gross，他也是去了M$，后来Chuck Jazdzewski这位Delphi VCL的主要设计者也去了微软，据说在微软主要做WPF。
+
+1998年，Delphi 4：致力于易用性；Module Explore技术的引入使程序员能够以一致的图形界面浏览和编辑代码；代码导航和类自动生成的功能使程序员不必在输入代码上花费太多精力；MIDAS、DCOM和CORBA等技术使其应用范围扩展到企业级。这一年Delphi有效地巩固了它在竞争中的地位，Delphi 4在长期的Delphi用户中赢得了信誉。
+
+1999年，Delphi 5：支持ADO；增加更多的功能使程序的编写更简单；为简化Internet的开发增加了许多新功能，比如支持XML的新MIDAS。Delphi 5最重要的特征—稳定性，就像好酒一样，伟大的软件不可能产生在匆匆忙忙之中，Borland直到Delphi 5完全令人满意才将它推出。Borland一直在推动着Pascal编译器向前发展，Delphi 5是迈出的又一步，它综合了数十年来编译器的经验和最新的32位优化编译技术。
+
+2001年，Delphi 6：支持WebService；跨平台CLX。发布Linux下的Kylix 1。
+
+2002年，Delphi 7 主要改BUG；Kylix 3同年发布。2003年，Delphi 8 CLR支持.NET。2004年，Delphi 2005 支持C#开发。2005年，Borland Developer Studio 2006 大杂烩，Win32、.NET、Delphi、C++、C#。
+
+2007年，Delphi 2007 IDE功能强了但速度也快。Delphi逐渐回到正途，但前途未卜。
+
+附带开源Free Pascal的情况：1993年项目诞生；2000年1.0；2005年2.0；2007年2.1.4。
+

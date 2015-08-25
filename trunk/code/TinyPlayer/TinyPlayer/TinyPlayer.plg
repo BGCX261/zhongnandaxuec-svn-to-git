@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TinyPlayer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D2.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_UNICODE" /D "UNICODE" /FR"Release/" /Fp"Release/TinyPlayer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D3.tmp" with contents
+[
+strmbasd.lib strmiids.lib /nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Release/TinyPlayer.pdb" /debug /machine:I386 /out:"Release/TinyPlayer.exe" 
+.\Release\StdAfx.obj
+.\Release\TinyPlayer.obj
+.\Release\TinyPlayerDlg.obj
+.\Release\TinyPlayer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D3.tmp"
+<h3>Output Window</h3>
+Compiling...
+TinyPlayerDlg.cpp
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(199) : warning C4244: 'initializing' : conversion from '__int64' to 'double', possible loss of data
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(324) : warning C4101: 'FileName' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(396) : warning C4101: 'lDx' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(596) : warning C4101: 'lTop' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(596) : warning C4101: 'lFull' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(596) : warning C4101: 'lLeft' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(635) : warning C4244: '=' : conversion from '__int64' to 'double', possible loss of data
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(614) : warning C4101: 'Duration' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(615) : warning C4101: 'dbDuration' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(613) : warning C4101: 'hr' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(627) : warning C4101: 'lCurPos' : unreferenced local variable
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(447) : warning C4715: 'CTinyPlayerDlg::OnPlay' : not all control paths return a value
+E:\svnroot\zhongnandaxue\code\TinyPlayer\TinyPlayer\TinyPlayerDlg.cpp(471) : warning C4700: local variable 'm_Mode' used without having been initialized
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/TinyPlayer.bsc"  .\Release\StdAfx.sbr .\Release\TinyPlayer.sbr .\Release\TinyPlayerDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+TinyPlayer.exe - 0 error(s), 13 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,28 @@
+1964年，美国达特默斯学院约翰.凯梅尼（J. Kemeny）和托马斯·卡茨（T.Kurtz）认为，象FORTRAN那样的语言都是为专业人员设计，而他们希望能为无经验的人提供一种简单的语言，特别希望那些非计算机专业的学生也能通过这种语言学会使用电脑。于是，他们在简化FORTRAN的基础上，研制出一种“初学者通用符号指令代码”（Beginners All purpose Symbolic Intruction Code），简称BASIC。
+
+1967年，麻省理工学院人工智能实验室希摩尔·帕伯特（S.Papert），为孩子设计出一种叫LOGO的电脑语言。帕伯特曾与著名瑞士心理学家皮亚杰一起学习，他发明的LOGO最初是个绘图程序，能控制一个“海龟”图标，在屏幕上描绘爬行路径的轨迹，从而完成各种图形的绘制。帕伯特希望孩子不要机械地记忆事实，强调创造性的探索。他说：“人们总喜欢讲学习，但是，你可以看到，学校的多数课程是记忆一些数据和科学事实，却很少着眼于真正意义上的学习与思考。” 他用LOGO语言启发孩子们学会学习，在马萨诸塞州列克星敦，一些孩子用LOGO语言设计出了真正的程序，使LOGO成为一种热门的电脑教学语言。本段只是一个插曲，80年代末，在国内一些高中学校还能见到这个有趣的东西。
+
+BASIC最初只有17条语句，12个函数和3个命令，由于BASIC语言易学易用，它很快就成为最流行的电脑语言之一，几乎所有小型电脑和个人电脑都在使用它。BASIC自身也不断发展，各种版本层出不穷，从APPLE-Ⅱ机上用的APPLE BASIC，到IBM-PC及其兼容机上用的BASICA和GW-BASIC，再到MS-DOS上的MS BASIC、QuickBASIC和VisualBasic 1.0，直至Windows下的Visual Basic和Linux下的XBasic、YaBASIC等等，BASIC无处不在，甚至许多电子游戏机(例如小霸王学习机)和微型电子词典(例如文曲星)中都实现了BASIC。如今BASIC语言在许多国家都作为一种计算机程序的教学语言和入门语言。谭浩强教授八十年代所著《BASIC语言》一书，曾经多次再版，现在的发行量已经超过千万之巨。
+
+BASIC许多版本中最值得一提的是True BASIC和Turbo BASIC，二者在90年代初国内不少用户。True BASIC功能比Quick BASIC强大，有声音、图像、数学运算等丰富的功能库，到今天还有DOS、MacOS、Windows、Unix和Linux等各种操作系统下运行的多种版本，还有http://truebasic.com可访问。
+
+Turbo BASIC是BORLAND在推出著名的Turbo C后不久的1987年推出的BASIC编译器，正如BORLAND的一贯风格，这个版本丝毫不逊色于它的微软表兄QuickBASIC, 而且在某些方面还独具特色；1988年，新的TurboBASIC 4.0推出，支持多文档界面，各方面也有长足进步，然而从此以后，Borland似乎与微软达成了某种默契，突然离开了BASIC领域，转而发展PASCAL语言，所以BASIC的主流历史还是微软的。
+
+1975年，比尔.盖茨创立Microsoft，并成功的把Basic语言的编译器移植到使用Intel处理器的ALR计算机中。
+
+1982年，IBM选定Microsoft创作PC的操作系统时，也选定了Microsoft的Basic作为其计算机的ROM－Basic。 
+
+1987年，微软推出Quick BASIC。此后，伴随着MS-DOS5.0的推出，微软同时推出了Quick BASIC的简化版QBASIC，将其作为操作系统的组成部分免费提供给用户。
+
+1991年，随着Windows 3.0的推出，越来越多的开发商对这个图形界面的操作系统产生了兴趣，大量的Windows应用程序开始涌现。但是，Windows程序的开发相对于传统的DOS有很大的不同，开发者必须将很多精力放在开发GUI上，这让很多希望学习Windows开发的人员却步。1991年，微软公司展示了一个叫Thunder的产品，所有的开发者都惊呆了，它竟然可以用鼠标“画”出所需的用户界面，然后用简单的BASIC语言编写业务逻辑，就生成一个完整的应用程序。这种全新的“Visual”的开发就像雷电（Thunder）一样，给Windows开发人员开辟了新的天地。这个产品最终被定名为Visual Basic，采用事件驱动，Quick BASIC的语法和可视化的IDE。Visual Basic 1.0带来的最新的开发体验就是事件驱动，它不同于传统的过程式开发。同时，VBX控件让可视化组件的概念进入Visual Basic。
+
+Visual Basic 1.0是革命性的BASIC，许多专家把VB的出现当做是软件开发史上的一个具有划时代意义的事件。但到1995年，Borland推出Delphi 1.0，导致快速软件开发逐渐成为主流，而VB也开始暗淡无光，VBA成为垃圾，这些都是后话了。
+
+所以Visual Basic以后的历史其实平淡无奇，只是一个版本又一个版本地发：
+
+1992年，Visual Basic 1.0 还发布了一个DOS版本。
+1998年，VB6发布。
+2001年，Visual Basic .NET推出。
+2003年，Visual Basic .NET 2003。
+2005年，在Visual Studio 2005内推出Visual Basic 2005。
+

@@ -1,0 +1,20 @@
+0. 机器指令
+1946年，在美国诞生第一台电子计算机ENIAC，它采用穿孔卡输入输出数据，开启了人与机器进行复杂对话的历史。
+
+早期电脑都直接采用机器语言，即用“0”和“1”为指令代码来编写程序，那时租借机器要花去好几百万，而程序设计的费用却只会多不会少。 
+
+1. FORTRAN
+1954年，IBM公司程序师约翰.巴科斯带领的13人小组在IBM704电脑上设计出编译器软件，完成了第一个电脑高级语言——FORTRAN语言，即用于科学计算的“公式翻译语言”（FORmula TRANslator）。
+
+1958年，一个国际商业和学术计算机科学家组成的委员会在瑞士苏黎世开会，探讨如何改进FORTRAN，并且设计一种标准化的电脑语言，巴科斯也参加了这个委员会。1960年，该委员会定义了一种新的语言版本——国际代数语言ALGOL 60，首次引进了局部变量和递归的概念。ALGOL语言没有被广泛运用，但它演变为其他程序语言的概念基础。
+
+1966年，美国统一了FORTRAN的标准，称为FORTRAN 66语言。
+
+1978年，ANSI正式公布FORTRAN77为新的美国国家标准；1980年，被接受为国际标准。FORTRAN 77扩充了字符处理功能，使之能应用于非数值运算行领域；还增加了块IF语句、ELSE语句、END IF语句等，使写出的程序趋于结构化，可读性加强。FORTRAN 77之后还有Fortran 90。
+
+1997年，微软公司把Microsoft FORTRAN PowerStation 4.0卖给数据设备公司（DEC），自己不再发展；后者推出了功能更强的FORTRAN语言新版本Digital Visual FORTRAN 5.0，也是集成在Developer Studio中，不再是传统DOS环境。
+
+1998年，DEC与Compag公司合并，DEC成为Compag的全资子公司，Digital Visual FORTRAN更名为Compag Visual FORTRAN，到目前为止，Visual FORTRAN的最新版本为2001推出的Compag Visual FORTRAN 6.6。此后，Compaq也不再开发Fortran，CVF 6.6C是最终的版本了，Compaq的Fortran开发小组已经投入Intel旗下。
+
+2007年6月，Intel发布Intel Visual Fortran 10.0。IVF需要微软的Microsoft Visual Studio集成开发环境，即IVF自身不带编辑器。目前看，IVF唯一的优势在于其速度，因为它针对CPU的不同而对编译器进行不同的优化。
+

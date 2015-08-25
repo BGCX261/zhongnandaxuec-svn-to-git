@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ListTEST - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\HYG\LOCALS~1\Temp\RSP81D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /D "_WINDOWS" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "MY_DEF" /FR"Debug/" /Fp"Debug/ListTEST.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\ListTEST\ShowContDB.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HYG\LOCALS~1\Temp\RSP81D.tmp" 
+Creating temporary file "C:\DOCUME~1\HYG\LOCALS~1\Temp\RSP81E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ListTEST.pdb" /debug /machine:I386 /out:"Debug/ListTEST.exe" /pdbtype:sept 
+".\Debug\AddStudenInf.obj"
+".\Debug\ListTEST.obj"
+".\Debug\ListTESTDlg.obj"
+".\Debug\Login.obj"
+".\Debug\MainStuDlg.obj"
+".\Debug\ModifPwd.obj"
+".\Debug\ModifStudentInfo.obj"
+".\Debug\SpeciDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ListTEST.res"
+".\Debug\ShowContDB.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\HYG\LOCALS~1\Temp\RSP81E.tmp"
+<h3>Output Window</h3>
+Compiling...
+ShowContDB.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\HYG\LOCALS~1\Temp\RSP81F.tmp" with contents
+[
+/nologo /o"Debug/ListTEST.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AddStudenInf.sbr"
+".\Debug\ListTEST.sbr"
+".\Debug\ListTESTDlg.sbr"
+".\Debug\Login.sbr"
+".\Debug\MainStuDlg.sbr"
+".\Debug\ModifPwd.sbr"
+".\Debug\ModifStudentInfo.sbr"
+".\Debug\SpeciDlg.sbr"
+".\Debug\ShowContDB.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\HYG\LOCALS~1\Temp\RSP81F.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ListTEST.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

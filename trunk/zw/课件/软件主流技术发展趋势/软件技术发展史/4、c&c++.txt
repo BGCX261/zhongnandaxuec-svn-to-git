@@ -1,0 +1,39 @@
+真正的C语言出现时间比PASCAL晚，但它的历史更悠久。C语言是从B语言发展过来的，B语言又源自BCPL即Basic CPL，而CPL又源自ALGOL 60。C语言既保持了BCPL和B语言的优点（精练，接近硬件），又克服了它们的缺点（过于简单，数据无类型等）。
+
+最初的C语言只是为实现UNIX操作系统提供一种工具语言而设计的。1973年，K.Thompson和D.M.Ritchie两人合作把UNIX的90％以上用C改写，即UNIX第5版。原来的UNIX操作系统是1969年由美国的贝尔实验室开发成功的，就是他们两个用汇编语言写的。
+
+C语言多次作了改进，但主要还是在贝尔实验室内部使用。直到1975年UNIX第6版公布后，C语言的突出优点才引起人们普遍注意。1977年出现了不依赖于具体机器的C语言编译版本；1978年以后，C语言已先后移植到大、中、小、微型机上。
+
+以1978年由美国电话电报公司(AT&T)贝尔实验室正式发表的UNIX第7版中的C编译程序为基础，Brian W.Kernighan(柯尼汉)和Dennis M.Ritchie(里奇)合著了影响深远的名著《The C Programming Language》，常常称它为“K&R”，它成为后来广泛使用的C语言版本的基础，但在“K&R”中并没有定义一个完整的标准C语言。为此，1983年，美国国家标准化协会(ANSl)制定了标准，称为ANSI C；1987年，ANSI又公布了新标准——87 ANSI C。目前流行的C编译系统都是以它为基础的。
+
+C++最早出现在1983年，是以C语言为基础发展起来的，先只是把“类”的概念引入了C语言，也是AT&T做的，后来又引进了运算符重载、虚函数等许多特性，并使之更加精炼，于1989后推出了AT&T C++ 2.0版。1998年有了C++语言的国际标准ISO/IEC:98-14882。
+
+从前面几章可以看出，软件技术的历史都发生在美国，而且都是一些公司或者实验室做了东西用的人多后，美国就把它们上升为国家和国际标准（ANSI以及ISO），有了标准后就是各个公司发不同的版本和版本升级了。C++发展了，但C仍然被大量使用，C++编译器都可以编译C；编译器的主要历史是逐渐交给了微软和Borland两家公司。下文列出一些主要事件。
+
+1983年，“图林奖” 授予AT&T贝尔实验室的两位科学家邓尼斯.里奇（D.Ritchie）和肯.姆森（K. Thompson），以表彰他们共同发明C语言。
+1985年，《The C++ Programming Language》第一版。
+1987年，Borland公司，Turbo C for DOS 1.0。
+1988年，Watcom C 6.0。
+1989年，Turbo C for DOS 2.0；这个版本对我们这一代老程序员有初恋式的记忆。
+1990年，第一个Borland C++发布。 
+1990年，Microsoft C++ 6.0。
+1991年，《The C++ Programming Language》第二版。 
+1991年，Watcom C 8.5/386，支持DOS/4GW；编译速度最快，优化又佳，虽然没有IDE，但也很多人用。
+1992年，Borland C++ 3.1 for DOS；这是一个定鼎之做、也是巅峰之做，领先微软好多年；这个版本对我们这一代老程序员有刻骨铭心的记忆。
+1992年，第一个Microsoft C++即Visual C++ 1.0发布，含MFC 2.0。
+1997年，《The C++ Programming Language》第三版。
+1997年，Borland C++ 5.0；5.02后这个产品线停止。
+1997年，Borland起诉了微软，称被微软在三年中挖走了34名员工；微软走上了正确的捷径：从Borland挖人。
+1997年，Borland C++ Builder 1.0，C++也可以可视化开发了。
+1998年，Visual C++ 6.0，含MFC 6.0。
+1998年，Borland C++ Builder 3.0。
+2002年，Visual C++ .NET 2002，即Visual C++ 7.0。
+2002年，Borland C++ Builder 6.0。
+2002年，Watcom C/C++ 11.0c，最后一个商业版本。
+2003年，Visual C++ .NET 2003。
+2003年，Borland C++ BuilderX；Java的IDE，很失败的版本。
+2003年，Open Watcom 1.0 和 1.1；Watcom 开源了。　
+2005年，Visual C++ .NET 2005，即Visual C++ 8.0。
+2007年，Borland C++ Builder 2007。
+2008年，Borland C++ Builder 2009。
+

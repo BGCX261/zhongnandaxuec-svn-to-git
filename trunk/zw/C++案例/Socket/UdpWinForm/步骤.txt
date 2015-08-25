@@ -1,0 +1,10 @@
+1、在stdAfx.h中添加#include<afxsock.h>
+2、在InitInstance()中调用AfxScoketInit()方法加载套接字库。
+3、在窗口中创建SOCKET成员变量
+4、在窗口类中创建InitSock()方法，用于创建,绑定套接字。
+5、在窗口的OnInitDialog()方法中调用InitSock()方法。
+6、在OnInitDialog()方法中创建接收线程。
+7、编写线程函数接收消息。
+8、当接收到消息后，定义消息，建立消息响应函数
+9、在消息响应函数中编写消息处理
+10、编写发送消息函数。

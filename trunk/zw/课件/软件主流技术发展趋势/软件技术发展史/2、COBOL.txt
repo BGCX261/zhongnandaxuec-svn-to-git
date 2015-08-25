@@ -1,0 +1,11 @@
+1959年，五角大楼委托格雷斯.霍波博士领导一个委员会，开始设计面向商业的通用语言（Common Business Oriented Langauge） ，即COBOL语言。COBOL最重要的特征是语法与英文很接近， 可以让不懂电脑的人也能看懂程序；编译器只需做少许修改，就能运行于任何类型的电脑。
+
+1968年，美国国家标准局将它进行了标准化。1974年ANSI对COBOL-68作出了修订扩充，形成了ANSI COBOL X3.23-1974，随后1978年ISO采用其形成ISO COBOL 78。现在最新的标准是Cobol－2002，也是面向对象语言了。
+
+40多年来，世界上有70％的数据都是用COBOL语言处理的，并且90％的ATM事务处理用的都是COBOL语言，每天在线处理的COBOL事务有300亿次，据称用COBOL书写的程序超过了1000亿行。COBOL主要用于主机系统，而且只要大型机存在，其上就还要运行COBOL程序，而且很多资深的程序员已经习惯于COBOL，加入大型机环境的新程序员也不得不开始使用COBOL。
+
+COBOL开发工具最好的是Fujitsu COBOL，现在叫NetCOBOL，由日本富士通公司发展。
+
+2007年，最新版本是NetCOBOL Enterprise V8.0，支持.NET 3.0，包含能够产生Microsoft .NET代码的COBOL-85编译器，从而可以把现有的COBOL迁移到.NET运行。
+
+虽然用COBOL构建ASP.NET应用程序或者XML Web服务看起来未免过于牵强，但这却是不折不扣的事实。对新开发项目而言， NetCOBOL同Visual Studio .NET相集成，支持.NET Windows Forms设计器。从而令开发人员可以采用Object COBOL创建Windows和Web应用程序

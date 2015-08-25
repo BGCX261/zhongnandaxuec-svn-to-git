@@ -1,0 +1,62 @@
+现在广泛使用的主流数据库都是关系数据库。关系数据库建立在严格的数学基础即关系代数上，这个数学基础一直没什么发展，所以关系数据库自身几十年也没多大发展，就是多些优化，扩展些横向的功能；而新兴的面向对象数据库和XML数据库则没有数学基础体系，现在在大多数场合都还缺乏实用性。关系数据库的历史主角是IBM、Oracle、Sybase和微软。
+
+1961年，通用电气公司（General Electric Co.）的Charles Bachman成功地开发出世界上第一个网状DBMS也是第一个数据库管理系统——集成数据存储（Integrated DataStore IDS），并在当时得到了广泛的发行和应用。IDS只能在GE主机上运行，数据库所有的表必须通过手工编码来生成。
+
+1970年，IBM的研究员E.F.Codd博士在刊物《Communication of the ACM》上发表了一篇名为“A Relational Model of Data for Large Shared Data Banks”的论文，提出了关系模型的概念，奠定了关系模型的理论基础。后来Codd又论述了范式理论和衡量关系系统的12条标准，用数学理论奠定了关系数据库的基础。Codd获1981年图灵奖。
+
+1974年，IBM的Ray Boyce和Don Chamberlin将Codd关系数据库的12条准则的数学定义以简单的关键字语法表现出来，里程碑式地提出了SQL（Structured Query Language）语言。SQL语言是一种高度非过程化的语言，只要求用户指出做什么而不需要指出怎么做。
+
+1979年，第一个商用SQL关系数据库管理系统Oracle V2（V1根本就未推出过）发布。Oracle当时只是产品的名字，意思是“智慧之源”，是为美国政府做的，当时公司名是Relational Software Inc，1982年才更名为Oracle System Corporation。
+
+1983年，IBM 发布DATABASE 2（DB2）for MVS（内部代号为"Eagle"）。
+
+1986年，ANSI把SQL作为关系数据库语言的美国标准，同年公布了标准SQL文本。基本SQL定义一般叫做SQL-89，后来的SQL-92标准包括模式操作，动态创建和SQL语句动态执行、网络环境支持等增强特性。
+
+1987年，Sybase发布SybaseSQLServer 1.0，首次提出并实现Client/Server数据库体系结构。
+
+1989年，微软发布了SQLServer1.0版，是OS/2的。1987年微软和IBM在合作开发OS/2，微软自己没有数据库产品，把目光投向当时虽没有正式推出产品但已在技术上崭露头角的Sybase，同Sybase签订了合作协议，使用Sybase的技术开发基于OS/2平台的关系型数据库。
+
+1991年，微软和IBM宣布终止OS/2的合作开发，不过微软仍于1992年同Sybase合作推出了基于OS/2的SQLServer4.2版。这时，微软已经在规划基于WindowsNT系统的32位版本了。
+
+1992年，Oracle7，可能国内用户最多的版本。
+
+1992年，Sybase发布了SQLServer10.0和一系列的新产品，将SQLServer从一个Client/Server系统推进到支持企业级的计算环境。
+
+1993年，IBM发布了DB2 for OS/2 V1，这是DB2第一次在Intel平台上出现。
+
+1993年，微软在推出WindowsNT 3.1后不久，如期发布了SQL Server的Windows NT版，并取得了成功。这时，微软和Sybase的合作出现了危机。一方面，基于Windows NT的SQL Server已经开始对Sybase基于Unix的主流产品形成竞争；另一方面，微软希望对SQL Server针对Windows NT做优化，却由于兼容性的问题，无法得到Sybase修改代码的认可。经协商，双方于1994年达成协议，宣布双方将各自发展数据库产品，微软得到了自由修改SQL Server代码的许可，此后，Windows NT成了SQL Server运行的惟一平台。
+
+1996年，微软推出了影响深远的SQL Server 6.5。SQL Server6.5是一个性能稳定、功能强大的现代数据库产品。SQLServer6.5采用多线程模型，支持动态备份，并提供了多CPU的支持，企业版支持群集。
+
+1996年，IBM 发布DB2 2.1.2，这是第一个真正支持JAVA和JDBC的数据库产品；同年，IBM将DB2更名为DB2通用数据库（DB2 Universal Database），这是第一个能够对多媒体和Web进行支持的关系型数据库管理系统。
+
+1997年，Sybase将SQLServer重新命名为Adaptive Server Enterprise，版本号为11.5。基于适应性体系结构（Adaptive Component Architecture , ACA），ACA是一种3层结构：包括客户端、中间层和服务器。
+
+1998年，DB2 UDB 5.2 增加了对 SQLJ、Java 存储过程和用户自定义函数的支持。
+
+1998年，微软发布MS SQL Server 7.0，这是微软划时代的产品，它完全摆脱了Sybase体系的框架，完全由微软独立设计和开发，其体系结构与6.5版本迥然不同，但是保持了应用接口上的兼容性，发布之后刷新了多项TPC纪录。SQL Server从这一版本起得到了广泛应用。 
+
+1999年，Oracle8i，支持用Java写存储过程。
+
+1999年，IBM发布Intel 平台上的DB2 UDB for Linux。
+
+1999年，Sybase ASE 12.0，支持Java、XML、群集。
+
+2000年，微软发布SQL Server 2000企业级数据库系统，包含了三个组件（DB, OLAP, English Query）。丰富的前端工具，完善的开发工具，以及对XML的支持等，促进了该版本的推广和应用。
+
+2000年，可替代商业数据库的开源数据库MySQL发布3.23版本，支持事务、复制、全文检索，这是个稳定版本，是MySQL在互联网中应用的品牌版本，促成开源的LAMP（Linux+Apache+Mysql+Perl/PHP/Python）与J2EE和.NET商业软件形成三足鼎立之势。
+
+2001年，Oracle9i，含Real Application Clusters（RAC），支持集群。 
+
+2001年，IBM收购了Informix的数据库业务，这次收购扩大了IBM的分布式数据库业务。
+
+2003年，Oracle10g，即ORACLE应用服务器10g，“g”代表“grid, 网格”。这一版的最大的特性就是加入了网格计算的功能，可以把分布在世界各地的计算机资源通过高速的互联网组成充分共享的资源集成。
+
+2003年，MySQL 4.0.15，支持子查询。
+
+2005年，Oracle发布它的第一个免费数据库，Oracle Database XE，即Oracle Database 10g Express Edition。XE建立在Oracle数据库10g第二版的代码库之上，与Oracle数据库产品系列完全兼容。XE可用于32位Linux和Windows操作系统，在功能上相当于Oracle Standard Edition One。由于是免费版本，在硬件上受到了一定的限制，如：至多使用1个CPU或1个双核CPU的处理能力；最多可使用1GB内存; 每个服务器只限于一个CPU；最多存储4GB的用户数据。
+
+2005年，微软发布SQL Server 2005最新版本，历时5年的重大变革，支持用C#写存储过程、存储引擎改进、BI增强等。预期的数据库镜像功能未正式发布，但可通过单独组件安装。
+
+2006年，MySQL 5.0.22，支持存储过程。
+
